@@ -3,7 +3,7 @@ package Quiz;
 import java.util.Scanner;
 
 public class CricketQuiz {
-    protected String variable = "Aryan";
+
     public static void main(String[] args) {
         int score = 0;
         Scanner sc = new Scanner(System.in);
@@ -125,9 +125,6 @@ public class CricketQuiz {
             case 4:
                 System.out.println("Correct !");
                 score++;
-                break;
-            default:
-                System.out.println("Invalid option");
                 break;
 
         } int ans5;
